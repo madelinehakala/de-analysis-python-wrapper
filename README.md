@@ -1,5 +1,5 @@
 # Differential Expression Analysis Wrapper
-This repository contains a wrapper.py script that automates the execution of the Kallisto/Sleuth pipeline for differential expression analysis.
+This repository contains a wrapper.py script that automates the execution of the Kallisto/Sleuth pipeline for differential expression analysis (TRACK 1). The PipelineProject_Madeline_Hakala folder displays the output of running the wrapper.py script on the Full Test Data: Inside this folder is a log file with detailed information about the output of this run.
 
 ## Running the Wrapper Script
 Clone this repository, ensure that all dependencies are installed, ensure that your data is in the proper format (or utilize the Sample Test Data), and then run the following command:
@@ -18,9 +18,9 @@ python3 wrapper.py -o <OUTPUT-DIRECTORY> -a <NCBI-ACCESSION> -e <EMAIL> -d <SEQU
 
 * Subfamily: The subfamily associated with your sequencing data.
 
-Ex. The command I used when running wrapper.py with the Sample Test Data:
+Ex. The command I used when running wrapper.py with the Full Test Data:
 ```
-python3 wrapper.py -o PipelineProject_Madeline_Hakala -a  NC_006273.2 -e mhakala@luc.edu -d sampleData -l PipelineProject.log -s Betaherpesvirinae
+python3 wrapper.py -o PipelineProject_Madeline_Hakala -a NC_006273.2 -e mhakala@luc.edu -d data -l PipelineProject.log -s Betaherpesvirinae
 ```
 
 ## Required Dependencies
@@ -46,4 +46,4 @@ Note: If you are using your own sequencing data, ensure it is in the following f
 * Sample names should be "SUBJECT-CONDITION". The forward read should end in "_1", and the reverse read should end in "_2".
 
 ## Sample Test Data
-To test the wrapper.py script with shortened data, utilize "sampleData". This folder contains shortened versions of the full test data's fasta files.
+To test the wrapper.py script with shortened data, utilize "sampleData". This folder contains shortened versions of the Full Test Data's fasta files.
