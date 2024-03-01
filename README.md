@@ -43,3 +43,6 @@ ssh downloadChengData.sh
 Data --> Sample --> fwdRead revRead
 
 Sample names should be <SUBJECT-CONDITION>. The forward read should end in "_1", and the reverse read should end in "_2".
+
+## Sample Test Data
+To test the wrapper.py script with shortened data, utilize the sampleData available here. These files are shortened versions of the Full Test Data.
