@@ -8,6 +8,6 @@
 	"p_unique": 69.5,
 	"kallisto_version": "0.50.1",
 	"index_version": 13,
-	"start_time": "Fri Mar  1 10:57:46 2024",
+	"start_time": "Fri Mar  1 17:19:26 2024",
 	"call": "kallisto quant -i index.idx -o kallistoOutput/donor1-6dpi -b 30 -t 4 ../data/donor1-6dpi/SRR5660033_GSM2653766_Donor_1_WT_6dpi_SS_Human_betaherpesvirus_5_RNA-Seq_1.fastq.gz ../data/donor1-6dpi/SRR5660033_GSM2653766_Donor_1_WT_6dpi_SS_Human_betaherpesvirus_5_RNA-Seq_2.fastq.gz"
 }
