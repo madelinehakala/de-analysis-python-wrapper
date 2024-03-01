@@ -1,0 +1,5 @@
+sample  condition  path
+donor1-2dpi  2dpi  kallistoOutput/donor1-2dpi
+donor1-6dpi  6dpi  kallistoOutput/donor1-6dpi
+donor3-2dpi  2dpi  kallistoOutput/donor3-2dpi
+donor3-6dpi  6dpi  kallistoOutput/donor3-6dpi

@@ -1,0 +1,13 @@
+{
+	"n_targets": 169,
+	"n_bootstraps": 30,
+	"n_processed": 2259287,
+	"n_pseudoaligned": 1848858,
+	"n_unique": 1823603,
+	"p_pseudoaligned": 81.8,
+	"p_unique": 80.7,
+	"kallisto_version": "0.50.1",
+	"index_version": 13,
+	"start_time": "Fri Mar  1 10:57:19 2024",
+	"call": "kallisto quant -i index.idx -o kallistoOutput/donor1-2dpi -b 30 -t 4 ../data/donor1-2dpi/SRR5660030_GSM2653763_Donor_1_WT_2dpi_SS_Human_betaherpesvirus_5_RNA-Seq_1.fastq.gz ../data/donor1-2dpi/SRR5660030_GSM2653763_Donor_1_WT_2dpi_SS_Human_betaherpesvirus_5_RNA-Seq_2.fastq.gz"
+}
