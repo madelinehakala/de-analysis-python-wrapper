@@ -43,10 +43,10 @@ Note: If you are using your own sequencing data, ensure it is in the following f
 
 * Data --> Sample --> FwdRead RevRead
 
-* Sample names should be "SUBJECT-CONDITION". The forward read should end in "_1.fasta.gz", and the reverse read should end in "_2.fasta.gz".
+* Sample names should be "SUBJECT-CONDITION". The forward read should end in "_1.fastq.gz", and the reverse read should end in "_2.fastq.gz".
 
 ## Sample Test Data
-To test the wrapper.py script with shortened data, utilize "sampleData", which is found in this repository. The "sampleData" folder contains shortened versions of the Full Test Data's fasta files. 
+To test the wrapper.py script with shortened data, utilize "sampleData", which is found in this repository. The "sampleData" folder contains shortened versions of the Full Test Data's fastq files. 
 
 Ex. If I were to run the wrapper.py script using "sampleData", this would be my command:
 ```
