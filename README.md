@@ -37,7 +37,7 @@ SRR Numbers: SRX2896360, SRX2896363, SRX2896374, SRX2896375
 
 To download the full test data yourself in the required format, run the following command:
 ```
-ssh downloadChengData.sh
+sh downloadChengData.sh
 ```
 Note: If you are using your own sequencing data, ensure it is in the following format:
 
