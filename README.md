@@ -1,5 +1,5 @@
 # Differential Expression Analysis Wrapper
-This repository contains a wrapper.py script that automates the execution of the Kallisto/Sleuth pipeline for differential expression analysis (TRACK 1). The PipelineProject_Madeline_Hakala folder displays the output of running the wrapper.py script on the Full Test Data: Inside this folder is a log file with detailed information about the output of this run.
+This repository contains a wrapper.py script that automates the execution of the Kallisto/Sleuth pipeline for differential expression analysis.
 
 ## Running the Wrapper Script
 Clone this repository, ensure that all dependencies are installed, ensure that your data is in the proper format (or utilize the Sample Test Data), and then run the following command:
